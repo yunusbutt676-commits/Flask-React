@@ -1,0 +1,62 @@
+# --- Python / Flask ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+instance/
+.env
+*.log
+.venv/
+venv/
+env/
+ENV/
+
+# Flask migrations
+migrations/
+
+# --- ML / Data Files ---
+*.h5
+*.pkl
+*.joblib
+*.pt
+*.onnx
+*.npy
+*.npz
+*.csv
+*.tsv
+*.xls
+*.xlsx
+data/
+datasets/
+checkpoints/
+models/
+
+# --- React / Frontend ---
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.parcel-cache/
+frontend/dist/
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.swp
+
+# --- Coverage / Testing ---
+htmlcov/
+.tox/
+.coverage
+.cache
+pytest_cache/
+junitxml/
+
+# --- Logs ---
+*.log
+logs/
